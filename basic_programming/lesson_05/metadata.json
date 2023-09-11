@@ -3,6 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-	  "code/src/homeworks/StackAppl.java"
+	  "code/src/homeworks/StackAppl.java",
+	  "code/src/VarCastingAppl.java",
+	  "code/src/OperationsAppl.java",
+	  "code/src/MethodAdvAppl.java"
 	  ]
 }
