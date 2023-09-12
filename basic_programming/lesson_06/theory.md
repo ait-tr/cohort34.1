@@ -10,6 +10,9 @@ Result of comparison operation has type boolean
 <li>
 A ternary operator, one of the ways to get a result depending on the execution of some condition. Its syntax is: conditional expression ? expression1 : expression2. Depending on whether the conditional expression is true or false, the result of the ternary operator will be either the result of expression1 or the result of expression2.
 </li>
+<li>
+The most universal way to execute some part of the code, depending on the condition, is to use the if-else operator. This operator has a full form, or a shortened one (without else).
+</li>
 </ol>
 
 
@@ -22,5 +25,8 @@ A ternary operator, one of the ways to get a result depending on the execution o
 </li>
 <li>
 Тернарный оператор, один из способов получить результат в зависимости от выполнения какого-то условия. Его синтаксис таков: условное выражение ? выражение1 : выражение2. В зависимости верное условное выражение (результат его true) или нет (false), результатом тернарного оператора будет или результат выражения1, или результат выражения2
+</li>
+<li>
+Самым универсальный способ организовать выполнение какой-то части кода, в зависимости от условия, является использования оператора if-else. Этот оператор имеет полную форму, или сокращенную (без else)
 </li>
 </ol>
