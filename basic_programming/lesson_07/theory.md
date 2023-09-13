@@ -57,6 +57,8 @@ The order of execution in the operator is as follows:
 - If you need to execute the same code for several options of choice, to avoid duplication, specify several corresponding values in consecutive `case` blocks.
 </li>
 
+<br/>
+<br/>
 
 <ol>
 <li>
