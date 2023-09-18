@@ -3,6 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-	  "code/src/homeworks/WhileLoopAppl.java"
+	  "code/src/homeworks/WhileLoopAppl.java",
+	  "code/src/ForLoop.java",
+	  "code/src/LuckyNumberAppl.java",
+	  "code/src/NestedLoop.java"
 	  ]
 }
