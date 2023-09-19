@@ -3,6 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-	  "code/src/homeworks/FigureAppl.java"
+	  "code/src/homeworks/FigureAppl.java",
+	  "code/src/ASCIIAppl.java",
+	  "code/src/ArrayAppl.java"
 	  ]
 }
