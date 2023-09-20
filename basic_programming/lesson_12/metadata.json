@@ -3,6 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-	  "code/src/homeworks/ArrayAppl.java"
+	  "code/src/homeworks/ArrayAppl.java",
+	  "code/src/ArrayRefAppl.java",
+	  "code/src/ArrayAdvAppl.java"
 	  ]
 }
