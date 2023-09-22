@@ -1,0 +1,19 @@
+{
+  "topic": "Introduction to the programming in Java. \"Hello, World!!!\" program",
+  "date": "2023-09-21",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/HWSolution08/src/CarRentalService.java",
+    "code/HWSolution08/src/CinemaTicket.java",
+    "code/HWSolution08/src/PhoneShop.java",
+    "code/HWSolution08/src/PizzaDelivery.java",
+    "code/HWSolution08/src/Seller.java",
+
+    "code/Lesson_14/src/WhileLoop.java",
+    "code/Lesson_14/src/Task1.java",
+    "code/Lesson_14/src/Task2.java"
+  ],
+  "video": ""
+}
