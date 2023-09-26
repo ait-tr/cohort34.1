@@ -14,7 +14,7 @@
 6. Three features of object-oriented programming: encapsulation, inheritance, polymorphism.
 7. Encapsulation - combining in an object various data characterizing the state of the object (field), and the functionality responsible for its behavior (methods).
 
-
+<br/><br/>
 
 1. Java проекты состоят из огромного числа классов. Для организации структуры проектов, классы разносят по пакетам.
    Имена пакетам дают через точку. Например: ``ait.company.model``. Полное имя класса включает название пакета. Например:
