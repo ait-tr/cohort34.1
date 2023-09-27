@@ -3,6 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-      "code/src/homeworks/CalculatorAppl.java"
+      "code/src/homeworks/CalculatorAppl.java",
+      "code/src/EmployeeAppl.java",
+      "code/src/Employee.java"
   ]
 }
