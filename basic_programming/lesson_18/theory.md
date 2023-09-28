@@ -5,7 +5,7 @@
 3. In Java, ad-hoc polymorphism is implemented in the form of the ability to overload methods.
 4. We can overload methods by creating several methods and constructors in a class with the same name, but differing in types and/or number of arguments.
 
-
+<br/>
 
 1. Полиморфизм в языках программирования и теории типов — способность функции обрабатывать данные разных типов.
 2. Существует две разновидности полиморфизма: это параметрический полиморфизм и ad-hoc-полиморфизм.
