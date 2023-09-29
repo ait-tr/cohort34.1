@@ -1,0 +1,12 @@
+{
+  "topic": "Repetition, OOP, Encapsulation, Polymorphism",
+  "date": "2023-09-29",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/Pizza/src/Main.java",
+    "code/Pizza/src/Person.java"
+  ],
+  "video": ""
+}
