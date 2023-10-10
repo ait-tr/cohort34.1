@@ -4,6 +4,9 @@
 	"homework": "homework.md",
 	"code": [
 		"code/src/homeworks/MaxMinPrimitivesAppl.java",
-		"code/src/homeworks/MaxMinPrimitivesAppl2.java"
+		"code/src/homeworks/MaxMinPrimitivesAppl2.java",
+		"code/src/StringAppl.java",
+		"code/src/User.java",
+		"code/src/UserAppl.java"
 	]
 }
