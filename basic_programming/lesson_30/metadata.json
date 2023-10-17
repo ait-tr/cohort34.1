@@ -11,6 +11,9 @@
 		"code/src/homeworks/Shape.java",
 		"code/src/homeworks/Circle.java",
 		"code/src/homeworks/Square.java",
-		"code/src/homeworks/Triangle.java"
+		"code/src/homeworks/Triangle.java",
+		"code/src/Company.java",
+		"code/src/CompanyImpl.java",
+		"code/src/CompanyTest.java"
 	]
 }
