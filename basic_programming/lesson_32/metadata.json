@@ -3,6 +3,12 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/src/homeworks/CompanyImpl.java"
+		"code/src/homeworks/CompanyImpl.java",
+		"code/src/JsonWrapper1.java",
+		"code/src/JsonWrapper1Appl.java",
+		"code/src/JsonWrapper2.java",
+		"code/src/JsonWrapper2Appl.java",
+		"code/src/CompanyImpl.java",
+		"code/src/Company.java"
 	]
 }
