@@ -6,6 +6,8 @@
 		"code/src/homeworks/Car.java",
 		"code/src/homeworks/Garage.java",
 		"code/src/homeworks/GarageImpl.java",
-		"code/src/homeworks/GarageTest.java"
+		"code/src/homeworks/GarageTest.java",
+		"code/src/ArrayTools.java",
+		"code/src/ArrayToolsTest.java"
 	]
 }
