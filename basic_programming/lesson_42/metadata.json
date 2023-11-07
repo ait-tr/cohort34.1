@@ -3,6 +3,11 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		
+		"code/src/MyString.java",
+		"code/src/MyStringAppl.java",
+		"code/src/MyStringIterator.java",
+		"code/src/Fibonacci.java",
+		"code/src/FibonacciAppl.java",
+		"code/src/FibonacciIterator.java"
 	]
 }
