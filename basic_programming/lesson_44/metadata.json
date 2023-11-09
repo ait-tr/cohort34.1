@@ -3,6 +3,10 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/src/homeworks/ForumImpl.java"
+		"code/src/homeworks/ForumImpl.java",
+		"code/src/ComplexityAppl.java",
+		"code/src/ListAppl.java",
+		"code/src/IList.java",
+		"code/src/MyArrayList.java"
 	]
 }

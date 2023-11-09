@@ -36,4 +36,4 @@ That is, in simple terms, ArrayList is a “rubber array”.
 
 </ol>
 
-[Java Collection Framework](https://github.com/ait-tr/cohort34.1/blob/main/basic_programming/lesson_44/JCF.pdf)
+[Java Collections Framework](https://github.com/ait-tr/cohort34.1/blob/main/basic_programming/lesson_44/JCF.pdf)
