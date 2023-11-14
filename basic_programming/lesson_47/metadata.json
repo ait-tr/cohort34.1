@@ -4,6 +4,10 @@
 	"homework": "homework.md",
 	"code": [
 		"code/src/homeworks/ListAppl.java",
-		"code/src/homeworks/MyLinkedList.java"
+		"code/src/homeworks/MyLinkedList.java",
+		"code/src/ListAppl.java",
+		"code/src/ListPerfomanceTest.java",
+		"code/src/CompanyListImpl.java",
+		"code/src/CompanyTest.java"
 	]
 }
