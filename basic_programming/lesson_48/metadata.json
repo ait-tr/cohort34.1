@@ -6,6 +6,10 @@
 		"code/src/homeworks/SupermarketAppl.java",
 		"code/src/homeworks/Supermarket.java",
 		"code/src/homeworks/SupermarketImpl.java",
-		"code/src/homeworks/Product.java"
+		"code/src/homeworks/Product.java",
+		"code/src/ListAppl.java",
+		"code/src/Person.java",
+		"code/src/Citizens.java",
+		"code/src/CitizensImpl.java"
 	]
 }
