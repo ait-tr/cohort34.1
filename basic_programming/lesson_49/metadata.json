@@ -3,9 +3,9 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/src/homeworks/CitizensTest.java.java",
-		"code/src/CitizensTest.java.java",
-		"code/src/CitizensImpl.java.java",
-		"code/src/Person.java.java"
+		"code/src/homeworks/CitizensTest.java",
+		"code/src/CitizensTest.java",
+		"code/src/CitizensImpl.java",
+		"code/src/Person.java"
 	]
 }
