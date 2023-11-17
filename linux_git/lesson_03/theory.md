@@ -1,10 +1,3 @@
-!https://prod-files-secure.s3.us-west-2.amazonaws.com/95d3eea4-bdd9-4866-805a-55b03d066b78/5559ce3c-0b32-4dae-910a-d2d38aad47c2/Screenshot_from_2023-09-11_14-32-55.png
-
-![Screenshot from 2023-11-03 13-02-02.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/95d3eea4-bdd9-4866-805a-55b03d066b78/e80b8aa3-9ff9-449c-a542-83cf15a6683d/Screenshot_from_2023-11-03_13-02-02.png)
-
-![Screenshot from 2023-11-03 13-11-33.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/95d3eea4-bdd9-4866-805a-55b03d066b78/0dc319f4-7614-4126-95a9-20e8748dea27/Screenshot_from_2023-11-03_13-11-33.png)
-
-
 
 # Зачем нужна система контроля версий?
 
