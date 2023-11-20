@@ -4,6 +4,12 @@
 	"homework": "homework.md",
 	"code": [
 		"code/src/homeworks/CitizensTest.java",
-		"code/src/homeworks/CitizensImpl.java"
+		"code/src/homeworks/CitizensImpl.java",
+		"code/src/ISet.java",
+		"code/src/MyHashSet.java",
+		"code/src/MyHashSetAppl.java",
+		"code/src/HashSetAppl.java",
+		"code/src/CompanySetImpl.java",
+		"code/src/CompanyTest.java"
 	]
 }
