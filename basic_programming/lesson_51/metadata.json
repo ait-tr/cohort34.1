@@ -3,6 +3,9 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/src/homeworks/MyHashSet.java"
+		"code/src/homeworks/MyHashSet.java",
+		"code/src/SetAppl.java",
+		"code/src/PersonAppl.java",
+		"code/src/Person.java"
 	]
 }
