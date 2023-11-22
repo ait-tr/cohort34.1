@@ -1,4 +1,4 @@
-package telran.entitycollections.interfaces;
+package ait.entitycollections.interfaces;
 
 public interface EntityCollection {
 	public void add(Entity entity);
