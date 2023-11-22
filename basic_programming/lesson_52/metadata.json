@@ -3,6 +3,10 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/src/homeworks/CitizensImpl.java"
+		"code/src/homeworks/CitizensSetImpl.java",
+		"code/src/MapIntroAppl.java",
+		"code/src/CompanyMapImpl.java",
+		"code/src/Entity.java",
+		"code/src/EntityCollection.java"
 	]
 }
