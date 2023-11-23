@@ -7,6 +7,13 @@
 		"code/src/homeworks/EntityCollection.java",
 		"code/src/homeworks/A.java",
 		"code/src/homeworks/B.java",
-		"code/src/homeworks/C.java"
+		"code/src/homeworks/C.java",
+		"code/src/WordFreqAppl.java",
+		"code/src/Person.java",
+		"code/src/PersonNotFoundException.java",
+		"code/src/OptionalAppl.java",
+		"code/src/DigitsFreqAppl.java",
+		"code/src/Anagram.java",
+		"code/src/AnagramTest.java"
 	]
 }
