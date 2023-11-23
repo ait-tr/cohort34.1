@@ -1,0 +1,12 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homeworks/Entity.java",
+		"code/src/homeworks/EntityCollection.java",
+		"code/src/homeworks/A.java",
+		"code/src/homeworks/B.java",
+		"code/src/homeworks/C.java"
+	]
+}
