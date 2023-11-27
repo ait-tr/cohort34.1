@@ -5,6 +5,9 @@
 	"code": [
 		"code/src/homeworks/DigitsFreqAppl.java",
 		"code/src/homeworks/Anagram.java",
-		"code/src/homeworks/AnagramTest.java"
+		"code/src/homeworks/AnagramTest.java",
+		"code/src/MethodReferenceAppl.java",
+		"code/src/StreamAppl.java",
+		"code/src/CompanySetImpl.java"
 	]
 }
