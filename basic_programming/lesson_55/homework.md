@@ -4,9 +4,9 @@
 
 **Task 1**
 
-Create class Box with fields: String name and List<Pomegranate> granates.
-Create class Pomegranate with field: List<Seed> seeds.
-Classes Box and Pomegranate is Iterable.
+Create class Box with fields: ``String name`` and ``List<Pomegranate>`` granates.
+Create class Pomegranate with field: ``List<Seed>`` seeds.
+Classes Box and Pomegranate are Iterable.
 Create class Seed with field double weight.
 Create class PomegranateAppl with method main. Generate random quantity of Boxes (range  from 100 to 200).
 Every box have random quantity of pomegranates (range  from 10 to 20).
@@ -30,8 +30,8 @@ Find names of boxes with maximum seeds.  <br/>
 
 **Задание 1**
 
-Создайте класс Box с полями: String name и List<Pomegranate> granates.
-Создайте класс Pomegranate с полем: List<Seed> seeds.
+Создайте класс Box с полями: ``String name`` и ``List<Pomegranate> granates``.
+Создайте класс Pomegranate с полем: ``List<Seed> seeds``.
 Классы Box и Pomegranate являются итерируемыми.
 Создайте класс Seed с полем double weight..
 Создайте класс PomegranateAppl с методом main. Создать случайное количество коробок (от 100 до 200).
