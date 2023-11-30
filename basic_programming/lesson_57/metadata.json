@@ -4,6 +4,14 @@
 	"homework": "homework.md",
 	"code": [
 		"code/src/homeworks/SupermarketImpl.java",
-		"code/src/homeworks/SupermarketAppl.java"
+		"code/src/homeworks/SupermarketAppl.java",
+		"code/src/ByteOutputAppl.java",
+		"code/src/ByteInputAppl.java",
+		"code/src/CopyAppl.java",
+		"code/src/CompareAppl.java",
+		"code/src/Employee.java",
+		"code/src/Address.java",
+		"code/src/SaveEmployeeAppl.java",
+		"code/src/RestoreEmployeeAppl.java"
 	]
 }
