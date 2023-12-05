@@ -5,6 +5,9 @@
 	"code": [
 		"code/src/homeworks/TitanicAppl.java",
 		"code/src/homeworks/TitanicStats.java",
-		"code/src/homeworks/TitanicStatsImpl.java"
+		"code/src/homeworks/TitanicStatsImpl.java",
+		"code/src/MultithreadingAppl.java",
+		"code/src/MyTaskImplements.java",
+		"code/src/MyTaskExtends.java"
 	]
 }
