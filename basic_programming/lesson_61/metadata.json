@@ -4,6 +4,9 @@
 	"homework": "homework.md",
 	"code": [
 		"code/src/homeworks/Tarakan.java",
-		"code/src/homeworks/TarakanRaceAppl.java"
+		"code/src/homeworks/TarakanRaceAppl.java",
+		"code/src/Timer.java",
+		"code/src/TimerMySleep.java",
+		"code/src/TimerAppl.java"
 	]
 }
