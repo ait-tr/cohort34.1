@@ -4,6 +4,10 @@
 	"homework": "homework.md",
 	"code": [
 		"code/src/homeworks/Printer.java",
-		"code/src/homeworks/PrinterAppl.java"
+		"code/src/homeworks/PrinterAppl.java",
+		"code/src/Tarakan.java",
+		"code/src/Elevator.java",
+		"code/src/Truck.java",
+		"code/src/ElevatorAppl.java"
 	]
 }
