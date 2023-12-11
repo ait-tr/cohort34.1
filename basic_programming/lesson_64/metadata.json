@@ -7,6 +7,11 @@
 		"code/src/homeworks/ElevatorAppl.java",
 		"code/src/homeworks/Truck.java",
 		"code/src/homeworks/Truck1.java",
-		"code/src/homeworks/Truck2.java"
+		"code/src/homeworks/Truck2.java",
+		"code/src/Elevator.java",
+		"code/src/Truck.java",
+		"code/src/CompanyStreamImpl.java",
+		"code/src/InfiniteLoop.java",
+		"code/src/InfiniteLoopAppl.java"
 	]
 }
