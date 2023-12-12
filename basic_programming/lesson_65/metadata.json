@@ -5,6 +5,14 @@
 	"code": [
 		"code/src/homeworks/Account.java",
 		"code/src/homeworks/Transfer.java",
-		"code/src/homeworks/BankDeadLockAppl.java"
+		"code/src/homeworks/BankDeadLockAppl.java",
+		"code/src/MessageBox.java",
+		"code/src/MessageBoxA.java",
+		"code/src/MessageBoxB.java",
+		"code/src/MessageBoxC.java",
+		"code/src/Sender.java",
+		"code/src/Receiver.java",
+		"code/src/SenderReceiverAppl.java",
+		"code/src/Transfer.java"
 	]
 }

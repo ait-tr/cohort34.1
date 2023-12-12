@@ -19,6 +19,8 @@ Homework Hints:
     • Use LinkedList as internal implementation of queue in BlkQueue class
     • Look into classwork examples MessageBoxB or MessageBoxC to implement the proper synchronization logics.
 
+And don’t afraid, because each implementation is about 40 lines of copy-paste from MessageBox and only about 10 lines of really new code  
+
 <br/>
 
 **Задание 1**
@@ -37,6 +39,8 @@ Homework Hints:
          ◦ Он блокирует операцию push() производителей (писателей), пока он заполнен (имеет элементы maxSize).
      • Используйте LinkedList как внутреннюю реализацию очереди в классе BlkQueue.
      • Изучите примеры классных заданий MessageBoxB или MessageBoxC, чтобы реализовать правильную логику синхронизации.
+
+И не бойтесь, ведь каждая реализация — это примерно 40 строк копирования-вставки из MessageBox и всего около 10 строк действительно нового кода.
 
 <br/>
 
