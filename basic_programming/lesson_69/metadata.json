@@ -3,6 +3,8 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		
+		"code/src/ClientSocketAppl.java",
+		"code/src/ServerSocketAppl.java",
+		"code/src/ClientHandler.java"
 	]
 }
