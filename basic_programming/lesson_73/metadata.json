@@ -1,0 +1,17 @@
+{
+  "topic": "Introduction to the programming in Java. \"Hello, World!!!\" program",
+  "date": "2023-05-16",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/practice/recursion/BinarySearchRecursion.java",
+    "code/practice/recursion/EuclidGCD.java",
+    "code/practice/recursion/ReverseArray.java",
+    "code/practice/recursion/RobotGoAppl.java",
+    "code/practice/recursion/SquareRoot.java",
+    "code/practice/recursion/SumArrayRecursion.java"
+
+  ],
+  "video": ""
+}
