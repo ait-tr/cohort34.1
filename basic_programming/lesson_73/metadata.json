@@ -10,7 +10,9 @@
     "code/practice/recursion/ReverseArray.java",
     "code/practice/recursion/RobotGoAppl.java",
     "code/practice/recursion/SquareRoot.java",
-    "code/practice/recursion/SumArrayRecursion.java"
+    "code/practice/recursion/SumArrayRecursion.java",
+    "code/src/homeworks/Validator.java",
+	"code/src/homeworks/ValidatorTest.java"	
 
   ],
   "video": ""
