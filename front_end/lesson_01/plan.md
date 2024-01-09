@@ -8,4 +8,4 @@
 # План на урок <br/>
 1. Введение в веб программирование  <br/>
 2. HTML язык разметки  <br/>
-3. Теги: html, head, body, h1-h6, p, a, br, img   <br/>
+3. Теги: html, head, body, h1-h6, p, a, br, img, ul, ol, li   <br/>
