@@ -3,6 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-  		
+  		"code/src/box/index.html",
+  		"code/src/box/style.css",
+  		"code/src/coffee/index.html",
+  		"code/src/coffee/style.css"
   ]
 }
