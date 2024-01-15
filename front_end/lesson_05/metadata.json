@@ -6,6 +6,8 @@
   		"code/src/coffee_table/index.html",
   		"code/src/coffee_table/style.css",
   		"code/src/coffee_positioning/index.html",
-  		"code/src/coffee_positioning/style.css"
+  		"code/src/coffee_positioning/style.css",
+  		"code/src/star_wars/index.html",
+  		"code/src/star_wars/style.css"
   ]
 }
