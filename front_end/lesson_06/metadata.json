@@ -3,11 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-  		"code/src/coffee_table/index.html",
-  		"code/src/coffee_table/style.css",
-  		"code/src/coffee_positioning/index.html",
-  		"code/src/coffee_positioning/style.css",
   		"code/src/star_wars/index.html",
-  		"code/src/star_wars/style.css"
+  		"code/src/star_wars/style.css",
+  		"code/src/star_wars_flexbox/index.html",
+  		"code/src/star_wars_flexbox/style.css",
+  		"code/src/flexbox/index.html",
+  		"code/src/flexbox/style.css",
+  		"code/src/flexbox/indexItem.html",
+  		"code/src/flexbox/styleItem.css"
   ]
 }
