@@ -127,3 +127,13 @@ Bootstrap предлагает классы, которые можно прим�
  </body>
 </html>
 ```
+
+
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_08/Images/antique.jpg?raw=true" alt="antique"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_08/Images/gifts.jpg?raw=true" alt="gifts"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_08/Images/kitchen.jpg?raw=true" alt="kitchen"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_08/Images/woodwork.jpg?raw=true" alt="woodwork"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_08/Images/bck-grnd.jpg?raw=true" alt="background"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_08/Images/facebook.svg?raw=true" alt="facebook"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_08/Images/instagram.svg?raw=true" alt="instagram"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_08/Images/twitter.svg?raw=true" alt="twitter"/>
