@@ -4,6 +4,8 @@
   "homework": "homework.md",
   "code": [
   	"code/src/homework/index.html",
-  	"code/src/homework/style.css"
+  	"code/src/homework/style.css",
+  	"code/src/sw/index.html",
+  	"code/src/sw/style.css"
   ]
 }
