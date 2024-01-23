@@ -4,6 +4,11 @@
   "homework": "homework.md",
   "code": [
   	"code/src/homework/index.html",
-  	"code/src/homework/style.css"
+  	"code/src/homework/style.css",
+  	"code/src/js/index.html",
+  	"code/src/js/script.js1",
+  	"code/src/js/func.js",
+  	"code/src/js/casting.js",
+  	"code/src/js/homework.js"
   ]
 }

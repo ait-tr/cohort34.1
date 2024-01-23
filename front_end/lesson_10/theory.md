@@ -245,3 +245,5 @@ switch (day) {
 Эти концепции представляют основные элементы операторов, сравнения и условий в JavaScript.
 
 <a href="https://learn.javascript.ru/" target="_blank">Современный учебник JavaScript</a>
+
+[JS. Primitive type conversions](https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_10/JS_primitive_type_conversions.pdf)
