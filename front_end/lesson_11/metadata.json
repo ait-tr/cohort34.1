@@ -1,8 +1,13 @@
 {
-  "plan": "plan.md",
-  "theory": "theory.md",
-  "homework": "homework.md",
-  "code": [
-  	"code/src/homework/homework.js"
-  ]
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homework/homework.js",
+		"code/src/js/logic.js",
+		"code/src/js/func.js",
+		"code/src/js/array.js",
+		"code/src/js/index.html",
+		"code/src/js/homework.js"
+	]
 }
