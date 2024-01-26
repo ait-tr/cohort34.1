@@ -1,0 +1,16 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homework/homework.js",
+		"code/src/js/object.js",
+		"code/src/js/primitives.js",
+		"code/src/js/arrays.js",
+		"code/src/js/modal.js",
+		"code/src/js/index.html",
+		"code/src/library/script.js",
+		"code/src/library/index.html"
+		
+	]
+}
