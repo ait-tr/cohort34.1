@@ -3,6 +3,14 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/src/homework/script.js"
+		"code/src/homework/script.js",
+		"code/src/dom/index.html",
+		"code/src/dom/bom.js",
+		"code/src/dom/dom.js",
+		"code/src/dom/clock.html",
+		"code/src/dom/clock.js",
+		"code/src/library/index.html",
+		"code/src/library/script.js"
+		
 	]
 }
