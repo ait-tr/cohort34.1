@@ -268,6 +268,12 @@ elem1.addEventListener("клик", myFunction, true);
 elem2.addEventListener("клик", myFunction, false);
 Это особенно полезно, когда одно и то же событие обрабатывается для нескольких элементов в иерархии DOM.
 
-
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_14/Images/Rouen_Cathedral_1.jpg?raw=true" alt="Rouen Cathedral"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_14/Images/Rouen_Cathedral_2.jpg?raw=true" alt="Rouen Cathedral"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_14/Images/Rouen_Cathedral_3.jpg?raw=true" alt="Rouen Cathedral"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_14/Images/Rouen_Cathedral_4.jpg?raw=true" alt="Rouen Cathedral"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_14/Images/Rouen_Cathedral_5.jpg?raw=true" alt="Rouen Cathedral"/>
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_14/Images/Rouen_Cathedral_6.jpg?raw=true" alt="Rouen Cathedral"/>
+<br/>
 <a href="https://learn.javascript.ru/" target="_blank">Современный учебник JavaScript</a>
 
