@@ -188,7 +188,7 @@ DOM (Document Object Model) в JavaScript представляет собой с
 let myElement = document.getElementById("intro");
 ```
 
-
-
+<img src="https://github.com/ait-tr/cohort34.1/blob/main/front_end/lesson_13/dom-links-elements.png?raw=true" alt="antique"/>
+<br/>
 <a href="https://learn.javascript.ru/" target="_blank">Современный учебник JavaScript</a>
 
