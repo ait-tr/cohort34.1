@@ -1,6 +1,6 @@
 Русский текст смотри ниже
 
-##Events
+## Events
 
 You can write JavaScript code that executes when an event occurs, such as when a user clicks an HTML element, moves the mouse, or submits a form.
 When an event occurs on a target element, a handler function is executed. 
@@ -62,7 +62,7 @@ x.value= x.value.toUpperCase();
 </script>
 ```
 
-##Event Listeners
+## Event Listeners
 
 
 The addEventListener() method attaches an event handler to an element without overwriting existing event handlers. You can add many event handlers to one element.
@@ -108,7 +108,7 @@ btn.removeEventListener("click", myFunction);
 After clicking the button, an alert with a random number displays and the event listener is removed.
 
 
-##Event Propagation
+## Event Propagation
 
 
 There are two ways of event propagation in the HTML DOM: bubbling and capturing.
@@ -122,7 +122,7 @@ Capturing goes down the DOM.
 Bubbling goes up the DOM.
 
 
-##Capturing vs. Bubbling
+## Capturing vs. Bubbling
 
 
 The addEventListener() method allows you to specify the propagation type with the "useCapture" parameter.addEventListener(event, function, useCapture) 
@@ -135,7 +135,7 @@ This is particularly useful when you have the same event handled for multiple el
 
 <br/><hr/><br/>
 
-##События
+## События
 
 Вы можете написать код JavaScript, который выполняется при возникновении события, например, когда пользователь щелкает элемент HTML, перемещает мышь или отправляет форму.
 Когда событие происходит в целевом элементе, выполняется функция-обработчик.
@@ -153,11 +153,11 @@ This is particularly useful when you have the same event handled for multiple el
 
 ```
 <button onclick="show()">Нажмите на меня</button>
-<скрипт>
+<script>
 функция шоу() {
 alert("Привет");
 }
-</скрипт>
+</script>
 ```
 
 Обработчики событий могут быть назначены элементам.
@@ -189,15 +189,15 @@ window.onload = функция() {
 
 ```
 <input type="text" id="name" onchange="change()">
-<скрипт>
+<script>
 изменение функции() {
 const x = document.getElementById("имя");
 x.value = x.value.toUpperCase();
 }
-</скрипт>
+</script>
 ```
 
-##Прослушиватели событий
+## Прослушиватели событий
 
 
 Метод addEventListener() присоединяет обработчик событий к элементу, не перезаписывая существующие обработчики событий. Вы можете добавить множество обработчиков событий в один элемент.
@@ -229,7 +229,7 @@ element.removeEventListener("наведение курсора", myFunction);
 ```
 
 ```
-<скрипт>
+<сscript>
 const btn = document.getElementById("демо");
 btn.addEventListener("клик", myFunction);
 
@@ -237,13 +237,13 @@ btn.addEventListener("клик", myFunction);
 оповещение(Math.random());
 btn.removeEventListener("клик", myFunction);
 }
-</скрипт>
+</script>
 ```
 
 После нажатия кнопки отображается оповещение со случайным числом и прослушиватель событий удаляется.
 
 
-##Распространение событий
+## Распространение событий
 
 
 В HTML DOM существует два способа распространения событий: всплытие и захват.
@@ -257,7 +257,7 @@ btn.removeEventListener("клик", myFunction);
 Пузырьки поднимаются вверх по DOM.
 
 
-##Захват или всплытие
+## Захват или всплытие
 
 
 Метод addEventListener() позволяет указать тип распространения с помощью параметра useCapture.addEventListener(event, function, useCapture)
