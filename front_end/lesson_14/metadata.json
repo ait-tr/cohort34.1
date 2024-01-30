@@ -3,7 +3,16 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/src/homework/script.js"
+		"code/src/homework/script.js",
+		"code/src/events/events.html",
+		"code/src/events/events.js",
+		"code/src/events/gallery.html",
+		"code/src/events/gallery.js",
+		"code/src/events/clock.html",
+		"code/src/events/clock.js",
+		"code/src/library/index.html",
+		"code/src/library/script.js",
+		"code/src/library/style.css"
 		
 	]
 }
