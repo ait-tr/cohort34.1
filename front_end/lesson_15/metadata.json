@@ -3,7 +3,16 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		"code/src/homework/script.js"
+		"code/src/homework/script.js",
+		"code/src/arguments.html",
+		"code/src/arguments.js",
+		"code/src/arrays.html",
+		"code/src/arrays.js",
+		"code/src/bubbling.html",
+		"code/src/bubbling.js",
+		"code/src/bubbling.css",
+		"code/src/events.html",
+		"code/src/events.js"
 		
 	]
 }
