@@ -5,6 +5,12 @@
 	"code": [
 		"code/src/homework/script.js",
 		"code/src/homework/index.html",
-		"code/src/homework/style.css"
+		"code/src/homework/style.css",
+		"code/src/destruct.js",
+		"code/src/destruct.html",
+		"code/src/spread.js",
+		"code/src/spread.html",
+		"code/src/object.js",
+		"code/src/object.html"
 	]
 }
