@@ -8,6 +8,11 @@
 		"code/src/homework/Employee.js",
 		"code/src/homework/Company.js",
 		"code/src/homework/utils.js",
-		"code/src/homework/index.js"
+		"code/src/homework/script.js",
+		"code/src/closure.js",
+		"code/src/context.js",
+		"code/src/contextLost.js",
+		"code/src/homework.js",
+		"code/src/index.html"
 	]
 }

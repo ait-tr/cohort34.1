@@ -2,8 +2,8 @@
 
 **Task 1**
 
-Complete the Company application from class work.
+Fix an error in the script from the homework.js file.
 
 **Задача 1**
 
-Завершить аппликацию Company из классной работы.
+Исправить ошибку в скрипте из файла homework.js.
