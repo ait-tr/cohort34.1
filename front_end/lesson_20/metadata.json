@@ -3,6 +3,11 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		
+		"code/src/homework/homework.js",
+		"code/src/async.js",
+		"code/src/asyncProblem.js",
+		"code/src/promise.js",
+		"code/src/homework.js",
+		"code/src/index.html"
 	]
 }
