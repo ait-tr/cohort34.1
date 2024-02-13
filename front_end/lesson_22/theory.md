@@ -1,6 +1,6 @@
 Русский текст смотри ниже
 
-#Fetch
+# Fetch
 
 When we call the fetch function with only the first required argument (url), a GET request with default settings is sent to the specified address. As a second argument, the fetch function can take an object that can be used to manage request options.
 

@@ -3,6 +3,11 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		
+		"code/src/register.html",
+		"code/src/register.js",
+		"code/src/login.html",
+		"code/src/login.js",
+		"code/src/converter.html",
+		"code/src/converter.js"
 	]
 }
