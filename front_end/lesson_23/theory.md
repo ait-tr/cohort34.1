@@ -1,6 +1,6 @@
 Русский текст смотри ниже
 
-#React
+# React
 
 ## Declarative
 Creating interactive user interfaces with React is fun and easy. You just need to describe how parts of the application interface look in different states. React will update them promptly when the data changes.
