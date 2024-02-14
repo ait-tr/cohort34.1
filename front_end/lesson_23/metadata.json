@@ -6,6 +6,11 @@
 		"code/src/homework/converter.html",
 		"code/src/homework/converter.js",
 		"code/src/react/style.css",
-		"code/src/react/index.html"
+		"code/src/react/index.html",
+		"code/src/react/script1JSX.js",
+		"code/src/react/script2Component.js",
+		"code/src/react/script3.js",
+		"code/src/react/script4Props.js",
+		"code/src/react/script5.js"
 	]
 }
