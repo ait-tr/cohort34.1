@@ -1,0 +1,16 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/react/style.css",
+		"code/src/react/index.html",
+		"code/src/react/script6State.js",
+		"code/src/react/script7.js",
+		"code/src/react/script8.js",
+		"code/src/react/script9.js",
+		"code/src/react/script10.js",
+		"code/src/react/script11.js",
+		"code/src/react/script12.js"
+	]
+}
