@@ -3,6 +3,7 @@
 	"theory": "theory.md",
 	"homework": "homework.md",
 	"code": [
-		
+		"code/src/weather/index.css",
+		"code/src/weather/App.css"
 	]
 }
