@@ -1,0 +1,25 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/sw/AboutMe.jsx",
+		"code/src/sw/App.css",
+		"code/src/sw/App.jsx",
+		"code/src/sw/constants.js",
+		"code/src/sw/Contact.jsx",
+		"code/src/sw/DreamTeam.jsx",
+		"code/src/sw/FarGalaxy.jsx",
+		"code/src/sw/Footer.jsx",
+		"code/src/sw/Friend.jsx",
+		"code/src/sw/Header.jsx",
+		"code/src/sw/Hero.jsx",
+		"code/src/sw/Home.jsx",
+		"code/src/sw/index.css",
+		"code/src/sw/main.jsx",
+		"code/src/sw/Main.jsx",
+		"code/src/sw/Navigation.jsx",
+		"code/src/sw/NavItem.jsx",
+		"code/src/sw/StarWars.jsx"
+	]
+}

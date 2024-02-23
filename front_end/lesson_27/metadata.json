@@ -1,0 +1,15 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/weather/index.css",
+		"code/src/weather/App.css",
+		"code/src/weather/App.jsx",
+		"code/src/weather/Info.jsx",
+		"code/src/weather/Data.jsx",
+		"code/src/weather/Form.jsx",
+		"code/src/weather/Weather.jsx",
+		"code/src/weather/main.jsx"
+	]
+}

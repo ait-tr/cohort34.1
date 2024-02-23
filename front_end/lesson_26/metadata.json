@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/example_01/index.js",
+    "./code/example_01/index.ts",
+    "./code/example_02/build/index.js",
+    "./code/example_02/build/sum.js",
+    "./code/example_02/src/index.ts",
+    "./code/example_02/src/sum.ts",
+    "./code/example_02/README.md",
+    "./code/example_02/tsconfig.json"
+  ]
+}
