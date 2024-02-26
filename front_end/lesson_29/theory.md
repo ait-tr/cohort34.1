@@ -76,4 +76,6 @@ Vite поддерживает модули CSS наряду с обычными 
 
 Модули CSS позволяют использовать одно и то же имя класса CSS в разных файлах, не беспокоясь о конфликтах имен.
 
+<a href="https://sw-info-api.herokuapp.com/swagger-ui.html" target="_blank">Star Wars Info</a>
+
 <a href="https://react.dev/" target="_blank">Официальная страница React</a>

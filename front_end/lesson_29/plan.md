@@ -11,4 +11,4 @@
 2. React. Хук useEffect  <br/>
 3. React. CSS модули  <br/>
 
-<a href="https://sw-info-api.herokuapp.com/swagger-ui.html" target=""_blank>Star Wars Info</a>
+<a href="https://sw-info-api.herokuapp.com/swagger-ui.html" target="_blank">Star Wars Info</a>
