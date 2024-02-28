@@ -2,6 +2,12 @@
 
 **Task 1**
 
+Convert the Star Wars project into TypeScript.
+
+**Task 2**
+
+Using the React Context API to solve the props drilling problem in the Star Wars application.
+
 
 **Задача 1**
 
