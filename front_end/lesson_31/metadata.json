@@ -1,0 +1,11 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homework/Contact.jsx",
+		"code/src/homework/App.jsx",
+		"code/src/homework/Avatar.jsx",
+		"code/src/homework/Stats.jsx"
+	]
+}
