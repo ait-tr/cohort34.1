@@ -1,7 +1,7 @@
 Русский текст смотри ниже
 
 
-#TypeScript
+# TypeScript
 
 ## Type definitions
 
