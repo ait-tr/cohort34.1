@@ -1,0 +1,23 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homework/AboutMe.jsx",
+		"code/src/homework/Contact.jsx",
+		"code/src/homework/aboutMe.module.css",
+		"code/src/homework/contact.module.css",
+		"code/src/twitter/index.css",
+		"code/src/twitter/App.css",
+		"code/src/twitter/App.jsx",
+		"code/src/twitter/Avatar.jsx",
+		"code/src/twitter/Body.jsx",
+		"code/src/twitter/Content.jsx",
+		"code/src/twitter/context.js",
+		"code/src/twitter/Navigation.jsx",
+		"code/src/twitter/Sidebar.jsx",
+		"code/src/twitter/Stats.jsx",
+		"code/src/sw/AboutMe.jsx",
+		"code/src/sw/FarGalaxy.jsx"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homework/main.jsx",
+		"code/src/homework/App.jsx",
+		"code/src/homework/Content.jsx",
+		"code/src/homework/constants.js",
+		"code/src/homework/index.css",
+		"code/src/homework/App.css",
+		"code/src/sw/FarGalaxy.jsx",
+		"code/src/sw/StarWars.jsx",
+		"code/src/sw/bottomRound.module.css",
+		"code/src/sw/farGalaxy.module.css",
+		"code/src/lifecycle/App.jsx"
+	]
+}
