@@ -9,4 +9,4 @@
 # План на урок <br/>
 1. Разбор домашнего задания <br/>
 2. RTK. CreateAsyncThunk <br/>
-3. React. RTK. Routing. Практическая работа
+3. React. RTK. Routing. Практическая работа <br/>
