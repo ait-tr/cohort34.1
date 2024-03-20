@@ -1,0 +1,49 @@
+1) Display 'name' and 'quantity' of all products with 'productCode' equal 'PEC'
+
+SELECT name, quantity FROM products WHERE productCode = 'PEC';
+
+2) Display 'productID' of all products, having word 'Blue' in its 'name'
+
+SELECT productID FROM products WHERE name LIKE '%Blue%';
+
+3) Display 'name' of all products having letter '2' in its 'name' 
+   and 'quantity' greater than 9000.
+
+SELECT name FROM products WHERE quantity > 9000 AND name LIKE '%2%';
+
+4) Display name and price of all products with quantity between 4000 and 9000. 
+   Order output in alphabetical order by name
+
+SELECT name, price FROM products WHERE quantity BETWEEN 4000 AND 9000 ORDER BY name;
+
+5) Display all existing information about products having price 0.48, 0.49 or 1.25
+
+SELECT * FROM products WHERE price IN(0.48, 0.49, 1.25);
+
+6) Display the name, price and quantity of 3 most expensive products.
+
+SELECT name, price, quantity FROM products ORDER BY price DESC LIMIT 3;
+
+7*) [Optional] Build for all products report with following columns:  
+      'Product Description', 'Item Price', 'Quantity', 'Cost'. 
+   Each row looks as follows: 
+       PEN - Pen Red          1.23          5000       6150
+       ...
+   The cost equal price * quantity. 
+   Sort the output ascending by  calculated 'Cost' .
+
+SELECT CONCAT(productCode, ' - ', name) AS `Product Description`,
+price AS `Item Price`, quantity AS Quantity, price * quantity AS `Cost` FROM products ORDER BY 4;
+
+
+
+
+
+
+
+
+
+
+
+
+
