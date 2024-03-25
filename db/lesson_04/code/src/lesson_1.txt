@@ -1,0 +1,17 @@
+show databases
+show dbs
+use cohort34_1
+show collections
+db.pets.insertOne({name: 'Vaska', type: 'Cat', age: 5})
+db.pets.find()
+db.pets.insertOne({name: 'Boris', type: 'Cat', age: 3, breed: 'Siam'})
+//SELECT * FROM pets WHERE name = 'Vaska';
+db.pets.find({name: 'Vaska'})
+db.pets.deleteOne({name: 'Vaska'})
+db.pets.insertMany([
+{name: 'Vaska', type: 'Cat', age: 5},
+{name: 'Tom', type: 'Cat', age: 84},
+{name: 'Jerry', type: 'Mouse', age: 84},
+{name: 'Ace', type: 'Dog', age: 5},
+{name: 'Prince', type: 'Dog', age: 3, breed: "Boxer"}
+])

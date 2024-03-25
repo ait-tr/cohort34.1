@@ -1,0 +1,84 @@
+UPDATE products SET supplierID = 510 WHERE productID = 1008;
+UPDATE suppliers SET supplierID = 510 WHERE supplierID = 501;
+DELETE FROM suppliers WHERE supplierID = 501;
+SHOW CREATE TABLE products \G
+DESCRIBE products;
+ALTER TABLE products DROP FOREIGN KEY `products_ibfk_1`;
+
+ALTER TABLE products
+    ADD CONSTRAINT `fk_suppliers` FOREIGN KEY (supplierID) REFERENCES suppliers (supplierID)
+    ON DELETE SET NULL
+    ON UPDATE SET NULL;
+    
+ALTER TABLE products
+    ADD CONSTRAINT `fk_suppliers` FOREIGN KEY (supplierID) REFERENCES suppliers (supplierID)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE;
+    
+EXPLAIN SELECT * FROM products WHERE productCode = 'MRK';
+EXPLAIN SELECT * FROM products WHERE supplierID = 503;
+EXPLAIN SELECT * FROM products WHERE productID IN (1006, 1007);
+
+SHOW INDEX FROM products;
+
+ALTER TABLE products ADD KEY `productCode` (productCode);
+
+ALTER TABLE products DROP COLUMN `supplierID`;
+
+ALTER TABLE products DROP FOREIGN KEY `fk_suppliers`;
+
+CREATE TABLE products_suppliers (
+         productID   INT UNSIGNED  NOT NULL,
+         supplierID  INT UNSIGNED  NOT NULL,
+                     -- Same data types as the parent tables
+         PRIMARY KEY (productID, supplierID),
+                     -- uniqueness
+         FOREIGN KEY (productID)  REFERENCES products  (productID),
+         FOREIGN KEY (supplierID) REFERENCES suppliers (supplierID)
+       );
+       
+INSERT INTO products_suppliers VALUES (1001, 501), (1002, 501),
+       (1003, 501), (1004, 502), (1001, 503);       
+
+INSERT INTO suppliers VALUE (510, 'MMM Inc', '12345678');
+
+SELECT * FROM products_suppliers, products, suppliers;
+
+SELECT * FROM products_suppliers ps
+    JOIN products p ON ps.productID = p.productID
+    JOIN suppliers s ON ps.supplierID = s.supplierID;
+
+SELECT p.*, s.* FROM products_suppliers ps
+    JOIN products p ON ps.productID = p.productID
+    JOIN suppliers s ON ps.supplierID = s.supplierID;
+
+SELECT p.*, s.* FROM products_suppliers ps
+    JOIN products p ON ps.productID = p.productID
+    JOIN suppliers s ON ps.supplierID = s.supplierID
+    WHERE quantity > 3000;
+
+SELECT p.productCode, SUM(p.price * p.quantity) FROM products_suppliers ps
+    JOIN products p ON ps.productID = p.productID
+    JOIN suppliers s ON ps.supplierID = s.supplierID
+    WHERE s.supplierID = 501
+    GROUP BY productCode;
+
+SELECT s.*, ps.productID FROM suppliers s
+    LEFT JOIN products_suppliers ps
+    ON ps.supplierID = s.supplierID;
+
+SELECT p.*, ps.supplierID FROM products_suppliers ps
+    RIGHT JOIN products p
+    ON ps.productID = p.productID;
+
+
+
+
+
+
+
+
+
+
+
+
