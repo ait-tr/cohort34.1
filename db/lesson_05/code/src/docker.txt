@@ -1,0 +1,46 @@
+docker -v
+docker --help
+docker images
+docker ps
+docker ps -a
+docker pull ubuntu:22.04
+docker run ubuntu
+docker rm sweet_albattani
+docker rmi ubuntu:latest
+docker run --name bubuntu ubuntu:22.04
+docker run -it --name bubuntu ubuntu:22.04
+docker start bubuntu
+docker attach --detach-keys ctrl-s bubuntu
+docker run --name mysql_tmp -e MYSQL_ROOT_PASSWORD=1234 -d mysql:8.3
+docker exec -it mysql_tmp mysql -u root -p
+docker volume --help
+docker volume ls
+docker volume create mysql_volume
+docker run --name mysqldb -v mysql_volume:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234 -d mysql:8.3
+docker exec -it mysqldb mysql -u root -p
+docker volume create mongo_volume
+docker run --name mongodb -v mongo_volume:/data/db -e MONGO_INITDB_ROOT_USERNAME=edd -e MONGO_INITDB_ROOT_PASSWORD=1234 -d mongo
+docker exec -it mongodb mongosh -u edd -p
+docker cp ./BP/MongoDB/students.json mongodb:/students.json
+docker cp ./BP/MongoDB/grades.json mongodb:/grades.json
+docker exec mongodb mongoimport --authenticationDatabase=admin -u=edd -p=1234 -d cohort34_1 -c students --file ./students.json
+docker exec mongodb mongoimport --authenticationDatabase=admin -u=edd -p=1234 -d cohort34_1 -c grades --file ./grades.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
