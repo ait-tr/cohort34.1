@@ -1,0 +1,11 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homeworks/Solution_3.txt",
+		"code/src/classwork_4.txt",
+		"code/src/lesson_1.txt",
+		"code/src/docker.txt"
+	]
+}

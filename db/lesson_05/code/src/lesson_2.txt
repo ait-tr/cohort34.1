@@ -1,0 +1,203 @@
+db.pets.deleteMany({type: 'Dog'})
+db.pets.insertMany([
+{name: 'Ace', type: 'Dog', age: 5},
+{name: 'Prince', type: 'Dog', age: 3, breed: "Boxer"}
+])
+db.pets.deleteOne({_id: ObjectId('66016717078a1b0593b7cca5')})
+db.pets.insertOne({name: 'Vaska', type: 'Cat', age: 5, _id: 1234567890})
+db.pets.deleteOne({_id: 1234567890})
+db.pets.insertOne({name: 'Vaska', type: 'Cat', age: 5})
+//SELECT * FROM pets WHERE type = 'Cat'
+db.pets.find({type: 'Cat'})
+//SELECT name, age FROM pets WHERE type = 'Cat'
+db.pets.find({type: 'Cat'}, {name: 1, age: 1})
+db.pets.find({type: 'Cat'}, {age: 0})
+db.pets.find({type: 'Cat'}, {age: 0, type: 0})
+db.pets.find({type: 'Cat'}, {age: 1, type: 0})
+db.pets.find({type: 'Cat'}, {name: 1, age: 1, _id: 0})
+//SELECT * FROM pets WHERE type = 'Cat' AND age = 3
+db.pets.find({type: 'Cat', age: 3})
+//SELECT * FROM pets WHERE type = 'Cat' AND age >= 5
+db.pets.find({type: 'Cat', age: {$gte: 5}})
+db.pets.find({type: {$ne: 'Mouse'}})
+//SELECT * FROM pets WHERE type IN ('Cat', 'Mouse')
+db.pets.find({type: {$in: ['Cat', 'Mouse']}})
+db.pets.find({breed: {$exists: 1}}, {_id: 0})
+//SELECT * FROM pets WHERE type = 'Mouse' OR age < 5
+db.pets.find({$or: [{type: 'Mouse'}, {age: {$lt: 5}}]})
+db.pets.find({$and: [{type: 'Cat'}, {age: {$gte: 5}}]}) // same as row 21
+db.pets.updateOne({name: 'Jerry'}, {$set: {IQ: 110}})
+db.pets.updateOne({IQ: {$exists: 0}}, {$set: {IQ: 10}})
+db.pets.updateMany({IQ: {$exists: 0}}, {$set: {IQ: 10}})
+db.pets.updateMany({}, {$inc: {IQ: 10}})
+db.pets.updateMany({}, {$inc: {IQ: -5}})
+db.pets.updateMany({}, {$unset: {IQ: ''}})
+db.pets.find().size()
+db.pets.find({type: 'Cat'}).size()
+db.pets.find().limit(2)
+db.pets.find().skip(1).limit(2)
+db.pets.find().sort({age: 1})
+db.pets.find().sort({age: 1, name: -1})
+db.pets.find({type: 'Bat'})
+db.pets.findOne({type: 'Bat'})
+db.pets.updateMany({type: 'Cat'}, {$set: {foods: ['Milk', 'Mouse']}})
+db.pets.updateMany({type: {$in: ['Cat', 'Dog']}}, {$push: {foods: 'Meat'}})
+db.pets.updateOne({name: 'Boris'}, {$push: {foods: 'Whiskas'}})
+db.pets.updateMany({type: 'Cat'}, {$push: {foods: 'Whiskas'}})
+db.pets.updateOne({name: 'Boris'}, {$pop: {foods: 1}})
+db.pets.updateOne({name: 'Jerry'}, {$push: {foods: 'Cheese'}})
+db.pets.updateMany({}, {$addToSet: {foods: 'Milk'}})
+db.pets.find({foods: 'Whiskas'})
+db.pets.updateMany({type: 'Dog'}, {$addToSet: {foods: 'Bone'}})
+db.pets.find({foods: {$in: ['Cheese', 'Bone']}})
+db.pets.find({foods: {$all: ['Cheese', 'Bone']}})
+db.pets.find({foods: {$all: ['Cheese', 'Milk']}})
+db.products.find().size()
+db.products.aggregate([
+    {
+        $group: {
+            _id: '$manufacturer',
+            quantity: {$sum: 1}
+        }
+    }
+])
+
+db.products.aggregate([
+    {
+        $group: {
+            _id: '$manufacturer',
+            quantity: {$sum: 1}
+        }
+    },
+    {
+        $sort: {
+            _id: 1
+        }
+    }
+])
+db.products.aggregate([
+    {
+        $group: {
+            _id: '$manufacturer',
+            quantity: {$sum: 1}
+        }
+    },
+    {
+        $sort: {
+            quantity: -1,
+            _id: 1
+        }
+    }
+])
+db.products.aggregate([
+    {
+        $group: {
+            _id: '$category',
+            quantity: {$sum: 1}
+        }
+    }
+])
+db.products.aggregate([
+    {
+        $match: {
+            manufacturer: {$ne: 'Apple'}
+        }
+    },
+    {
+        $group: {
+            _id: '$manufacturer',
+            quantity: {$sum: 1}
+        }
+    },
+    {
+        $sort: {
+            quantity: -1,
+            _id: 1
+        }
+    }
+])
+db.products.aggregate([
+    {
+        $group: {
+            _id: '$manufacturer',
+            quantity: {$sum: 1},
+            total_price: {$sum: '$price'},
+            avg_price: {$avg: '$price'},
+            min_price: {$min: '$price'},
+            max_price: {$max: '$price'},
+        }
+    },
+    {
+        $sort: {
+            total_price: -1,
+            _id: 1
+        }
+    }
+])
+db.products.aggregate([
+    {
+        $match: {
+            price: {$lt: 600}
+        }
+    },
+    {
+        $group: {
+            _id: '$manufacturer',
+            quantity: {$sum: 1},
+            total_price: {$sum: '$price'},
+            avg_price: {$avg: '$price'},
+            min_price: {$min: '$price'},
+            max_price: {$max: '$price'},
+        }
+    },
+    {
+        $sort: {
+            total_price: -1,
+            _id: 1
+        }
+    }
+])
+db.products.aggregate([
+    {
+        $group: {
+            _id: '$manufacturer',
+            categories: {$push: '$category'},
+            prices: {$push: '$price'}
+        }
+    },
+    {
+        $sort: {
+            _id: 1
+        }
+    }
+])
+db.products.aggregate([
+    {
+        $group: {
+            _id: '$manufacturer',
+            categories: {$addToSet: '$category'},
+            prices: {$push: '$price'}
+        }
+    },
+    {
+        $sort: {
+            _id: 1
+        }
+    }
+])
+db.students.find()
+db.students.find({scores: {type: 'exam', score: {$gt: 90}}}) // Wrong way
+db.students.find({scores: {$elemMatch: {type: 'exam', score: {$gt: 90}}}})
+
+
+
+
+
+
+
+
+
+
+
+
+

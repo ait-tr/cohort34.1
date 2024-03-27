@@ -1,0 +1,9 @@
+{
+	"plan": "plan.md",
+	"theory": "theory.md",
+	"homework": "homework.md",
+	"code": [
+		"code/src/homeworks/Solution_2.txt",
+		"code/src/classwork_3.txt"
+	]
+}

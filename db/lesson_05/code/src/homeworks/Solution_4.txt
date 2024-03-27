@@ -1,0 +1,13 @@
+Task 1
+
+SELECT s.*, ps.productID FROM suppliers s LEFT JOIN products_suppliers ps ON ps.supplierID = s.supplierID;
+redo it using RIGHT JOIN to get the same result
+
+SELECT s.*, ps.productID FROM products_suppliers ps RIGHT JOIN suppliers s ON s.supplierID = ps.supplierID;
+
+Task 2
+
+SELECT p.*, ps.supplierID FROM products_suppliers ps RIGHT JOIN products p ON ps.productID = p.productID;
+redo it using LEFT JOIN to get the same result
+
+SELECT p.*, ps.supplierID FROM products p LEFT JOIN products_suppliers ps ON p.productID = ps.productID;
